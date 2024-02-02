@@ -16,7 +16,7 @@
 		<span style="color:${ c };">${ c }</span>
 	</c:forEach>
 	
-	<h4>varStatu 속성 살펴보기</h4>
+	<h4>varStatu 속성 </h4>
 	<table border="1">
 	<c:forEach items="<%= rgba %>" var="c" varStatus="loop">
 		<tr>
